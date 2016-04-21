@@ -1,5 +1,5 @@
 # Ruby on Rails todo-app with Passenger and Nginx  
----
+
 ## Nginx
 ### Start Nginx:  
 sudo /opt/nginx/sbin/nginx  
