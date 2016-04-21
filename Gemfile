@@ -31,6 +31,8 @@ gem 'passenger'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'capistrano-rails'
+gem 'capistrano-passenger'
 
 group :development, :test do
   # Access an IRB console on exception pages or by using <%= console %> in views
