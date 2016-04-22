@@ -1,4 +1,9 @@
-# Ruby on Rails todo-app with Passenger and Nginx  
+# Ruby on Rails todo-app with Capistrano, Passenger and Nginx  
+
+## Capistrano  
+### Automatic Deployment:  
+bundle exec cap production deploy  
+
 
 ## Nginx
 ### Start Nginx:  
