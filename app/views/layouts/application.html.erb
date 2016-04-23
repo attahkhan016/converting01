@@ -7,12 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 	<%= render 'shared/navbar' %>
-
-  <section class="main">
-    <%= yield %>
-  </section>
-
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<div class="container">
+			<p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+	  	<%= yield %>
+	  </div>
+  </div>
+  <div class="col-md-1"></div>
 </body>
 </html>

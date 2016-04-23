@@ -36,6 +36,8 @@ gem 'capistrano-passenger'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
+gem 'devise'
+
 group :development, :test do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
