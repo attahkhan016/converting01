@@ -14,7 +14,6 @@ ENV RUBY_VERSION 2.2.0
 ENV PASSENGER_VERSION 4.0.59
 
 # All rvm commands need to be run as bash -l or they won't work.
-RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
 RUN \curl -sSL https://get.rvm.io | bash -s stable --rails
 RUN echo 'source /usr/local/rvm/scripts/rvm' >> /etc/bash.bashrc
 RUN /bin/bash -l -c 'rvm requirements'
